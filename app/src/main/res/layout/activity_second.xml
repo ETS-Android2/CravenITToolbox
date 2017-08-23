@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="net.androidbootcamp.cravenittoolbox.Second">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Craven Assets Updater"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Enter Tag Number"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/serialNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tag"
+        android:layout_below="@+id/tag"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Enter Serial Number"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/serialNumber"
+        android:layout_below="@+id/serialNumber"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Enter Model / Type"
+        android:inputType="none" />
+
+    <Spinner
+        android:id="@+id/txtBuildings"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/model"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:entries="@array/txtBuildings"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/model"
+        android:layout_below="@+id/txtBuildings"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter Room Number"
+        android:inputType="none" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@android:drawable/ic_dialog_email"
+        android:elevation="5dp" />
+
+
+</RelativeLayout>

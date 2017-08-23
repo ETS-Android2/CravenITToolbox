@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Craven IT Toolbox</string>
+    <string name="model">Enter Model Type</string>
+    <string name="building">Enter Building</string>
+    <string name="room">Enter Room Number</string>
+    <string name="tag">Enter Tag Number</string>
+    <string name="serialNumber">Enter Serial Number</string>
+    <string name="txtTitle">Craven Assets Locator</string>
+    <string name="btnEmail">Email the Information</string>
+    <string-array name="txtBuildings">
+        <item>NB: (A) Barker 003</item>
+        <item>NB: (B) Brock 001</item>
+        <item>NB: (C) Student Center 002</item>
+        <item>NB: (D) Kelso 011</item>
+        <item>NB: (E) Orringer 012</item>
+        <item>NB: (F) Perdue 018</item>
+        <item>NB: (G) Bender 019</item>
+        <item>NB: (H) BIT 027</item>
+        <item>NB: (I) BSH 028</item>
+        <item>NB: (J) Building J 029</item>
+        <item>NB: New Maintenance Bldg 022</item>
+        <item>HV: Cherry Point 009</item>
+        <item>HV: Havelock Library 301</item>
+        <item>HV: IAT 303</item>
+        <item>HV: Redd 305</item>
+        <item>Other</item>
+    </string-array>
+    <string name="btnScanCode">Scan Barcode</string>
+    <string name="btnAsset">Continue to Asset Info</string>
+    <string name="security_638_7261">Security 638-7261</string>
+    <string name="bambi_638_7317">Bambi 638-7317</string>
+    <string name="matt_638_7245">Matt 638-7245</string>
+    <string name="jonathan_672_7508">Jonathan 672-7508</string>
+    <string name="elaine_638_7323">Elaine 638-7323</string>
+    <string name="deborah_638_7264">Deborah 638-7264</string>
+    <string name="tammy_635_3773">Tammy 635-3773</string>
+    <string name="jerry_638_7352">Jerry 638-7352</string>
+    <string name="fieldtechs_636_5136">FieldTechs 636-5136</string>
+    <string name="directory">DIRECTORY</string>
+    <string name="knight">Waving Knight</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="net.androidbootcamp.cravenittoolbox.MainActivity">
+
+    <Button
+        android:id="@+id/secondActivity"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toSecond"
+        android:padding="15dp"
+        android:text="Asset Updater"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignStart="@+id/newAccount" />
+
+    <Button
+        android:id="@+id/directory"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/secondActivity"
+        android:layout_below="@+id/secondActivity"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toThird"
+        android:padding="15dp"
+        android:text="Phone Directory"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/scanTo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/directory"
+        android:layout_below="@+id/directory"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toScan"
+        android:padding="15dp"
+        android:text="Scan To Desktop Guide" />
+
+    <Button
+        android:id="@+id/newAccount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanTo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toSetup"
+        android:padding="15dp"
+        android:text="New Account Setup" />
+
+    <Button
+        android:id="@+id/wikiLink"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toWiki"
+        android:padding="15dp"
+        android:text="ITS Wiki" />
+
+    <Button
+        android:id="@+id/helpDesk"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wikiLink"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnblue"
+        android:onClick="toHelpDesk"
+        android:padding="15dp"
+        android:text="Helpdesk" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/lightlogo" />
+
+</RelativeLayout>
