@@ -26,7 +26,7 @@ Here are the screenshots of my application.
 
 **Assets Updater**
 
-![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-105538_Chrome.jpg?raw=true "Assets Updater Page")
+![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-105352_Craven%20IT%20Toolbox.jpg?raw=true "Assets Updater Page")
 
 **Phone Directory**
 
