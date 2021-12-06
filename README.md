@@ -16,4 +16,7 @@ Here are the screenshots of my application.
 
 **Splash Page**
 
-![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104437_Craven%20IT%20Toolbox.jpg?raw=true "Optional Title")
+![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104437_Craven%20IT%20Toolbox.jpg?raw=true "Splash Page")
+
+**Options Page**
+![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104558_Craven%20IT%20Toolbox.jpg?raw=tue "Options Page")
