@@ -22,4 +22,14 @@ Here are the screenshots of my application.
 **Options Page**
 
 
-![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104558_Craven%20IT%20Toolbox.jpg?raw=tue "Options Page")
+![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104558_Craven%20IT%20Toolbox.jpg?raw=true "Options Page")
+
+**Assets Updater**
+
+![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-105538_Chrome.jpg?raw=true "Assets Updater Page")
+
+**Phone Directory**
+
+
+
+
