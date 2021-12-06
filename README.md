@@ -14,6 +14,6 @@ Solution:
 
 Here are the screenshots of my application.
 
-Splash Page
+**Splash Page**
 
 ![Alt text](https://github.com/davidbell1751/CravenITToolbox/blob/master/Screenshot_20211206-104437_Craven%20IT%20Toolbox.jpg?raw=true "Optional Title")
